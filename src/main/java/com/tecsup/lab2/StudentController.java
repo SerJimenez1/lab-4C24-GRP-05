@@ -1,7 +1,7 @@
-public class StudentController{
+public class StudentController {
 
-    public void controller(){
-        // TO DO
+    public String helloStudent() {
+        return "Hola, soy el controlador de estudiantes";
     }
 
 }
