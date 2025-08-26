@@ -1,7 +1,3 @@
-public class StudentController {
-
-    public String helloStudent() {
-        return "Hola, soy el controlador de estudiantes";
-    }
-
+public String helloStudent() {
+    return "Hello from StudentController (sprint-1 branch)";
 }
