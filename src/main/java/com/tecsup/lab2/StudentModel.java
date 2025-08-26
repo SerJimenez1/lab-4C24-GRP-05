@@ -1,23 +1,26 @@
 public class StudentModel {
     private String name;
     private int age;
-    private String email; // 👈 Nuevo atributo agregado por el colaborador
 
-    public StudentModel(String name, int age, String email) {
+    public StudentModel(String name, int age) {
         this.name = name;
         this.age = age;
-        this.email = email;
     }
 
+    // Getters y Setters
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getAge() {
         return age;
     }
 
-    public String getEmail() {   // 👈 Nuevo getter
-        return email;
+    public void setAge(int age) {
+        this.age = age;
     }
 }

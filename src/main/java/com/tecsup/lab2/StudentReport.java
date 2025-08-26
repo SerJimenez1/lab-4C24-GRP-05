@@ -1,5 +1,8 @@
 public class StudentReport {
-    public String generateReport(StudentModel student) {
-        return "Reporte del estudiante: " + student.getName() + ", edad: " + student.getAge();
+    public void generateReport(StudentModel student) {
+        System.out.println("=== Student Report ===");
+        System.out.println("Student: " + student.getName());
+        System.out.println("Age: " + student.getAge());
+        System.out.println("Report generated successfully!");
     }
 }

@@ -1,6 +1,7 @@
 public class StudentView {
-    public void showStudentInfo(StudentModel student) {
-        System.out.println("Nombre: " + student.getName());
-        System.out.println("Edad: " + student.getAge());
+    public void displayStudent(String name, int age) {
+        System.out.println("=== Student Info ===");
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
     }
 }
